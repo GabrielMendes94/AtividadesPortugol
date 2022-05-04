@@ -3,7 +3,7 @@ programa
 	
 	funcao inicio()
 	{
-		inteiro lancamentos[10],x,maiorPontuacao=0,ocMaiorP=0//,soma=0 //maiorPontuacao e ocMaiorP considerando um dado de n lados
+		inteiro lancamentos[10],x,maiorPontuacao=0,ocMaiorP=0//maiorPontuacao e ocMaiorP considerando um dado de n lados
 		real soma=0.0
 		
 		para(x=0;x<10;x++)
@@ -12,7 +12,7 @@ programa
 			leia(lancamentos[x])
 			se(lancamentos[x]>maiorPontuacao)
 			{
-				maiorPontuacao=lancamentos[x]
+				maiorPontuacao=lancamentos[x]			//identificando maior pontuação
 			}
 			soma+=lancamentos[x]	
 		}
@@ -23,7 +23,7 @@ programa
 			escreva(lancamentos[x]," ")
 			se(lancamentos[x]==maiorPontuacao)
 			{
-				ocMaiorP+=1
+				ocMaiorP+=1				//contando ocorrências da maior pontuação
 			}
 		}
 		
@@ -41,7 +41,7 @@ quantas foram as ocorrências da maior pontuação.*/
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 585; 
+ * @POSICAO-CURSOR = 244; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = {lancamentos, 6, 10, 11}-{maiorPontuacao, 6, 28, 14}-{soma, 7, 7, 4};
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
